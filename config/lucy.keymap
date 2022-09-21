@@ -205,7 +205,7 @@
 		bindings = <
 		&kp ESC &trans &caps_word &trans &trans            			    &kp INSERT &kp LC(Z) &kp LC(LS(Z)) &kp PRINTSCREEN &kp DEL
 		&kp TAB &sk LALT &sk LCTRL &sk LSHIFT &gmail                   	&kp LG(SPC) &kp LGUI  &kp LC(C) &kp LC(V) &kp LC(X)
-		&sk LGUI &trans &trans &trans &trans    			            &trans &trans &trans &trans &trans
+		&sk LGUI &trans &trans &trans &trans    			            &trans &trans &trans &trans &kp LC(DEL)
 					    &trans &trans &trans  					        &trans &trans &none
 		>;
 		};

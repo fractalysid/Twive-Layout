@@ -203,7 +203,7 @@
 // Non so perché ma  &kp K_COPY &kp K_PASTE &kp K_CUT non funzionano
 		    utility_layer {
 		bindings = <
-		&kp ESC &trans &caps_word &trans &trans            			    &kp INSERT &kp LC(Z) &kp LC(LS(Z)) &kp PRINTSCREEN &kp DEL
+		&kp ESC &trans &caps_word &kp CAPS &trans         			    &kp INSERT &kp LC(Z) &kp LC(LS(Z)) &kp PRINTSCREEN &kp DEL
 		&kp TAB &sk LALT &sk LCTRL &sk LSHIFT &gmail                   	&kp LG(SPC) &kp LGUI  &kp LC(C) &kp LC(V) &kp LC(X)
 		&sk LGUI &trans &trans &trans &trans    			            &trans &trans &trans &trans &kp LC(DEL)
 					    &trans &trans &trans  					        &trans &trans &none
@@ -214,7 +214,7 @@
             common_layer {
 		bindings = <
 		&kp IT_EXCL &kp IT_CEGR &kp IT_UGRV &trans  &trans                      &trans &kp IT_AND &kp IT_PIPE &kp IT_QUES &kp LC(BKSP)
-		&kp IT_IGRV &kp IT_AGRV &kp IT_OGRV &kp IT_EGRV &kp IT_EACU             &trans &kp IT_FSLH &kp DOT &kp IT_MINUS &kp IT_UNDER
+		&kp IT_IGRV &kp IT_AGRV &kp IT_OGRV &kp IT_EGRV &kp IT_EACU             &kp IT_USD &kp IT_FSLH &kp DOT &kp IT_MINUS &kp IT_UNDER
 		&trans &trans &trans &trans &trans    			                        &trans &kp IT_BSLH &kp IT_BKTK &kp IT_TILDE &trans
 					   &none &trans &trans  					                &trans &trans &trans
 		>;
@@ -226,16 +226,17 @@
 		&kp HOME &kp PAGE_UP &kp PAGE_DOWN &kp END &kp LC(LS(TAB))                      &trans &kp LC(LA(LEFT))   &trans   &trans  &trans
 		&kp LEFT &kp UP &kp DOWN &kp RIGHT &kp LC(TAB)		                            &trans &kp LGUI  &kp LC(LSHIFT) &none &kp LCTRL
 		&kp K_FORWARD  &kp LC(LA(UP)) &kp LC(LA(DOWN)) &kp LA(TAB) &kp K_BACK   		&trans &kp LC(LA(RIGHT))  &trans  &trans &trans
-					                &trans &trans &trans  			                    &trans &trans &trans
+					                &kp LC(LA(LEFT)) &trans &trans  			        &trans &trans &kp LC(LA(RIGHT))
 		>;
 		};
 
 // RIGHT SYMBOLS
+// Removed, useless: IT_VIRGOLETTE_L and IT_VIRGOLETTE_R
             rsymbols_layer {
 		bindings = <
 		&trans &trans &trans &trans &trans    	                        &trans &kp IT_LBKT &kp IT_RBKT &kp IT_CARET &trans
     	&trans &trans &trans &none &trans                               &trans &kp IT_LPAR &kp IT_RPAR &kp IT_LBRC &kp IT_RBRC
-		&trans &trans &trans &trans &trans	                            &trans &kp IT_LESS &kp IT_GREAT &kp IT_VIRGOLETTE_L  &kp IT_VIRGOLETTE_R
+		&trans &trans &trans &trans &trans	                            &trans &kp IT_LESS &kp IT_GREAT &kp IT_FSLH &kp IT_BSLH
 					 &trans  &trans &trans                  			&trans &trans &trans
 		>;
 		};

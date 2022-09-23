@@ -14,6 +14,11 @@ The basic ideas are set but I keep changing everything based on my use feedback.
 ZMK config files for the [Lucy](https://github.com/fractalysid/Lucy-Keyboard) v0.2 keyboard.
 I couldn't manage to make the github action workflow work so it must be manually compiled.
 
+
+## Twive Simplified
+If you already find Twive to be too complex for you, you may give [Twive Simplified](https://github.com/fractalysid/Twive_Simplified) a try.
+It features only 5 layouts and no layers on home row.
+
 ## Design principles:
 
 - 32 keys (2^5) with only 1 key on the thumb cluster

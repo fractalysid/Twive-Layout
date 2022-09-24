@@ -9,7 +9,7 @@ The name is a portmanteau word of "Two" and "Five". Why this name?
 Well, because 2^5 keys, 2*5 layers ~~and LSD-25~~ is all you will ever need.
 
 
-The basic ideas are set but I keep changing everything based on my use feedback.
+The layout is mostly complete, apart from the specific positioning of a few symbols which may be tweaked a little more.
 
 ZMK config files for the [Lucy](https://github.com/fractalysid/Lucy-Keyboard) v0.2 keyboard.
 I couldn't manage to make the github action workflow work so it must be manually compiled.

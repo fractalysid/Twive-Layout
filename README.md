@@ -5,7 +5,7 @@ Graphic made with draw.io, thanks [Duccio](https://github.com/duckyb/zmk-sweep) 
 
 I present to you: Twive!
 
-The name comes from the contraption of the words "Two" and "Five". Why this name?
+The name is a portmanteau word of "Two" and "Five". Why this name?
 Well, because 2^5 keys, 2*5 layers ~~and LSD-25~~ is all you will ever need.
 
 

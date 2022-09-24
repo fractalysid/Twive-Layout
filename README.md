@@ -13,6 +13,7 @@ The basic ideas are set but I keep changing everything based on my use feedback.
 
 ZMK config files for the [Lucy](https://github.com/fractalysid/Lucy-Keyboard) v0.2 keyboard.
 I couldn't manage to make the github action workflow work so it must be manually compiled.
+A sample bash script to compile it is provided, compile_example.sh. Remember to edit it modifying the variables.
 
 
 ## Twive Simplified

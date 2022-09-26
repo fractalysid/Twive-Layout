@@ -18,7 +18,7 @@ A sample bash script to compile it is provided, compile_example.sh. Remember to 
 
 ## Twive Simplified
 If you already find Twive to be too complex for you, you may give [Twive Simplified](https://github.com/fractalysid/Twive_Simplified) a try.
-It features only 5 layouts and no layers on home row.
+It features only 5 layers accessed through the thumb cluster and not the home row.
 
 ## Design principles:
 

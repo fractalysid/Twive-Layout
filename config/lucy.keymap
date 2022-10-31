@@ -183,7 +183,7 @@
        		default_layer {
 		bindings = <
 		&kp Q               &kp W               &kp F               &kp P               &kp B           &kp J               &kp L               &kp U               &kp Y               &kp BKSP
-		&lm LSHFT A         &llt MEDIA R        &llt NUMBERS S      &llt R_SYMBOLS T    &kp G           &kp M               &rlt L_SYMBOLS N    &rlt FUNCTIONS E    &rlt NAVIGATION I   &rm LSHFT O
+		&lm LSHFT A         &llt NUMBERS R      &llt MEDIA S        &llt R_SYMBOLS T    &kp G           &kp M               &rlt L_SYMBOLS N    &rlt FUNCTIONS E    &rlt NAVIGATION I   &rm LSHFT O
 		&lm LSHFT Z         &lm LCTRL X         &lm LALT C          &lm LGUI D          &kp V           &kp K               &rm LGUI H          &rm LALT CMMA       &rm LCTRL DOT       &rm LSHFT IT_SQUOT
                                                 &qlt EXTRA RET      &none               &none           &none               &none               &lt UTILITY SPC
 		>;
@@ -256,7 +256,7 @@
 		    numbers_layer {
 		bindings = <
 		&trans              &trans              &kp IT_AST          &kp IT_FSLH         &trans          &trans              &kp N9              &kp N8              &kp N7              &trans
-        &trans              &kp IT_PLUS         &none               &kp IT_MINUS        &trans          &kp COMMA           &kp N3              &kp N2              &kp N1              &kp N0
+        &trans              &none               &kp IT_PLUS         &kp IT_MINUS        &trans          &kp COMMA           &kp N3              &kp N2              &kp N1              &kp N0
         &trans              &trans              &kp IT_EQL          &trans              &trans          &trans              &kp N6              &kp N5              &kp N4              &kp DOT
                                                 &trans              &trans              &trans          &trans              &trans              &trans
 		>;
@@ -266,7 +266,7 @@
 		    media_layer {
 		bindings = <
 		&trans              &trans              &trans              &trans              &trans          &trans              &kp K_VOLUME_DOWN   &kp K_VOLUME_UP     &kp C_BRI_DEC       &kp C_BRI_INC
-		&trans              &none               &trans              &trans              &trans          &trans              &kp K_PLAY_PAUSE    &kp K_PREV          &kp K_NEXT          &kp K_STOP2
+		&trans              &trans              &none               &trans              &trans          &trans              &kp K_PLAY_PAUSE    &kp K_PREV          &kp K_NEXT          &kp K_STOP2
 		&trans              &trans              &trans              &trans              &trans          &trans              &kp K_MUTE          &trans              &trans              &trans
                                                 &trans              &trans              &trans          &trans              &trans              &trans
 		>;

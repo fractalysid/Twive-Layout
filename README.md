@@ -155,4 +155,4 @@ Press both thumb keys to get back to BASE layer.
 
 # Twive
 
-![Twive Layout](https://github.com/fractalysid/Twive-Layout/blob/symbols_rework/Twive.png?raw=true)
+![Twive Layout](https://github.com/fractalysid/Twive-Layout/blob/v2.0/Twive.png?raw=true)

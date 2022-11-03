@@ -96,6 +96,14 @@
             key-positions = <16 17 18 19>;
             bindings = <&to DEFAULT>;
         };
+
+        // combo to tab in qwerty
+        combo_tab_qwerty {
+            timeout-ms = <75>;
+            layers = <QWERTY>;
+            key-positions = <10 11>;
+            bindings = <&kp TAB>;
+        };
    };
 
     conditional_layers {

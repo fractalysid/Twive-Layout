@@ -213,7 +213,7 @@
 		bindings = <
 		&kp IT_EXCL         &kp IT_CARET        &kp IT_UGRV         &kp IT_EACU         &trans          &trans              &kp IT_HASH         &kp IT_AST          &kp IT_QUES         &kp LC(BKSP)
 		&kp IT_IGRV         &kp IT_AGRV         &kp IT_OGRV         &kp IT_EGRV         &trans          &trans              &kp IT_EQL          &kp IT_FSLH         &kp IT_MINUS        &kp IT_UNDER
-		&trans              &trans              &trans              &trans              &trans          &trans              &kp IT_PLUS         &kp IT_GREAT        &kp IT_LESS         &kp IT_DQUOT
+		&trans              &trans              &trans              &trans              &trans          &trans              &kp IT_PLUS         &kp IT_LESS         &kp IT_GREAT        &kp IT_DQUOT
                                                 &none               &trans              &trans          &trans              &trans              &trans
 		>;
 		};

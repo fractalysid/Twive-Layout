@@ -224,7 +224,7 @@
 		    navigation_layer {
 		bindings = <
 		&trans              &trans              &trans              &trans              &trans          &trans              &trans              &trans              &trans              &trans
-		&kp K_BACK          &kp K_FORWARD       &trans              &trans              &trans          &trans              &trans              &trans              &none               &trans
+		&kp K_BACK          &kp K_FORWARD       &kp LC(LS(TAB))     &kp LC(TAB)         &trans          &trans              &trans              &trans              &none               &trans
 		&trans              &trans              &trans              &trans              &trans          &trans              &trans              &trans              &trans              &trans
                                                 &trans              &trans              &trans          &trans              &trans              &trans
 		>;

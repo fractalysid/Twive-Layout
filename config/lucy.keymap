@@ -211,9 +211,9 @@
 // EXTRA
             extra_layer {
 		bindings = <
-		&kp IT_EXCL         &kp IT_CARET        &kp IT_UGRV         &kp IT_EACU         &trans          &trans              &kp IT_HASH         &kp IT_AST          &kp IT_QUES         &kp LC(BKSP)
+		&kp IT_EXCL         &kp IT_DQUOT        &kp IT_UGRV         &kp IT_EACU         &trans          &trans              &kp IT_HASH         &kp IT_AST          &kp IT_QUES         &kp LC(BKSP)
 		&kp IT_IGRV         &kp IT_AGRV         &kp IT_OGRV         &kp IT_EGRV         &trans          &trans              &kp IT_EQL          &kp IT_FSLH         &kp IT_MINUS        &kp IT_UNDER
-		&trans              &trans              &trans              &trans              &trans          &trans              &kp IT_PLUS         &kp IT_LESS         &kp IT_GREAT        &kp IT_DQUOT
+		&trans              &trans              &trans              &trans              &trans          &trans              &kp IT_PLUS         &kp IT_BSLH         &kp IT_LESS         &kp IT_GREAT
                                                 &none               &trans              &trans          &trans              &trans              &trans
 		>;
 		};
@@ -234,8 +234,8 @@
             rsymbols_layer {
 		bindings = <
 		&trans              &trans              &trans              &trans              &trans          &trans              &kp IT_LBKT         &kp IT_RBKT         &trans              &trans
-    	&trans              &trans              &trans              &none               &trans          &trans              &kp IT_LBRC         &kp IT_RPAR         &kp IT_LPAR         &kp IT_RBRC
-		&trans              &trans              &trans              &trans              &trans          &trans              &kp IT_USD          &kp IT_TILDE        &none               &trans
+    	&trans              &trans              &trans              &none               &trans          &trans              &kp IT_LPAR         &kp IT_RPAR         &kp IT_LBRC         &kp IT_RBRC
+		&trans              &trans              &trans              &trans              &trans          &trans              &kp IT_USD          &kp IT_TILDE        &kp IT_BKTK         &trans
                                                 &trans              &trans              &trans          &trans              &trans              &trans
 		>;
 		};
@@ -243,9 +243,9 @@
 // LEFT SYMBOLS
        		lsymbols_layer {
 		bindings = <
-		&trans              &kp IT_DEGREE       &kp IT_BSLH         &kp IT_EUR          &trans          &trans              &trans              &trans              &trans              &trans
+		&trans              &kp IT_DEGREE       &none               &kp IT_CARET        &trans          &trans              &trans              &trans              &trans              &trans
 		&kp IT_PERC         &kp IT_AT           &kp IT_PIPE         &kp IT_AND          &trans          &trans              &none               &trans              &trans              &trans
-		&trans              &trans              &kp IT_PND          &kp IT_BKTK         &trans          &trans              &trans              &trans              &trans              &trans
+		&trans              &trans              &kp IT_PND          &kp IT_EUR          &trans          &trans              &trans              &trans              &trans              &trans
                                                 &trans              &trans              &trans          &trans              &trans              &trans
 		>;
 		};
